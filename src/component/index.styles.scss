@@ -1,0 +1,186 @@
+.home {
+  color: #ffff;
+  font-family: "Barlow";
+  font-size: 20px;
+  font-weight: 800;
+  padding: 10px;
+}
+
+.header-section {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  div {
+    padding: 10px 20px;
+    font-family: "Barlow";
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500px;
+
+    &:hover {
+      background: #fff;
+      color: #000;
+      font-weight: 500;
+      border-radius: 30px;
+    }
+  }
+}
+.pageheader {
+  height: 500px;
+  background-position: bottom;
+  background-size: cover;
+  position: relative;
+}
+.picture-parent {
+  display: flex;
+  flex-direction: row;
+}
+.card {
+  display: inline-block;
+  width: 50%;
+  height: 500px;
+}
+
+.block-image {
+  display: inline-block;
+  width: 50%;
+  height: 500px;
+  background-size: cover;
+}
+.card-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0 40px;
+}
+
+.tile-image {
+  display: inline-block;
+  width: 25%;
+  height: 300px;
+  background-size: cover;
+}
+.testimony-block {
+  height: 300px;
+  margin: auto;
+  background-color: rgb(174 173 167 / 37%);
+  text-align: center;
+}
+.testimonial-card {
+  // display: inline-block;
+  width: 33%;
+  height: 300px;
+}
+.testimonial-heading {
+  font-size: 18px;
+  padding: 20px;
+  color: hsl(210, 4%, 67%);
+}
+.profile-picture {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.content {
+  color: hsl(213, 9%, 39%);
+  font-family: "Barlow";
+  padding: 10px;
+}
+.name {
+  font-family: "Fraunces";
+}
+.designation {
+  font-size: 13px;
+  font-family: "Fraunces";
+  color: hsl(213, 9%, 39%);
+}
+
+.lastbanner {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer {
+  justify-content: center;
+  background-color: #e0ffff;
+}
+
+.social-media-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.social-media-banner {
+  color: hsl(168, 34%, 41%);
+  font-family: "Barlow";
+  font-size: 20px;
+  font-weight: 800;
+  padding: 10px;
+}
+.social-media-heading {
+  text-align: center;
+  color: hsl(168, 34%, 41%);
+  font-family: "Fraunces";
+  font-size: 30px;
+  font-weight: 800;
+  padding: 10px;
+}
+
+.icon-banner {
+  padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-body {
+    flex-direction: column;
+  }
+  .lastbanner {
+    flex-direction: column;
+  }
+  .testimony-block {
+    flex-direction: column;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+    align-self: center;
+  }
+
+  .navbar-mobile {
+    position: relative;
+    text-align: center;
+    position: absolute;
+    background: white;
+    width: 90%;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+
+    div {
+      padding: 20px;
+    }
+    .rectangle {
+      position: absolute;
+      left: calc(100% - 20px);
+      bottom: 100%;
+      padding: 0;
+      height: 0px;
+      width: 0px;
+      border-left: 20px solid transparent;
+      border-bottom: 20px solid white;
+    }
+  }
+}
