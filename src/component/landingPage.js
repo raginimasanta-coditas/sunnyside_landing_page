@@ -130,7 +130,7 @@ class Cover extends React.Component {
             </div>
           </div>
         </div>
-        <div className="lastbanner" style={{ height: "300px" }}>
+        <div className="lastbanner">
           <div
             className="tile-image"
             style={{
