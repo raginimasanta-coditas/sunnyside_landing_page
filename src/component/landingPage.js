@@ -72,17 +72,17 @@ class Cover extends React.Component {
               quo dignissimos quod rem repellat quia. Id autem beatae aut
               obcaecati mollitia nam dicta quos
             </div>
-            <div className="learn-more">Learn more</div>
+            <div className="learn-more egg">Learn more</div>
           </div>
           <div
-            className="block-image"
+            className="block-image "
             style={{
               backgroundImage: `url(${Egg})`,
             }}
           ></div>
 
           <div
-            className="block-image"
+            className="block-image "
             style={{
               backgroundImage: `url(${Glass})`,
             }}
@@ -94,7 +94,7 @@ class Cover extends React.Component {
               quo dignissimos quod rem repellat quia. Id autem beatae aut
               obcaecati mollitia nam dicta quos
             </div>
-            <div className="learn-more">Learn more</div>
+            <div className="learn-more glass">Learn more</div>
           </div>
 
           <div
@@ -151,11 +151,11 @@ class Cover extends React.Component {
             <div className="testimonial">
               <img className="profile-picture" src={Jennie}></img>
               <div className="content">
-                Professional, responsive, and able to keep up with ever-changing
-                demand and tight deadlines: That's how I would describe Jeramy
-                and”
+                “The Lorem Ipsum Company has been an integral part of our
+                content marketing success. We have seen a notable increase in
+                organic leads since we began ”
               </div>
-              <div className="name">Jennie F. </div>
+              <div className="name">Jennie F.</div>
               <div className="designation">Business Owner</div>
             </div>
           </div>
