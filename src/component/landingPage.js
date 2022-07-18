@@ -65,7 +65,15 @@ class Cover extends React.Component {
           </div>
         </div>
         <div className="pictures-parent">
-          <div className="card"></div>
+          <div className="card">
+            <div className="card-heading">Transfirmm your brand</div>
+            <div className="card-content">
+              Lorem ipsum dolor sit amet. Aut natus repudiandae ut ipsa nihil
+              quo dignissimos quod rem repellat quia. Id autem beatae aut
+              obcaecati mollitia nam dicta quos
+            </div>
+            <div className="learn-more">Learn more</div>
+          </div>
           <div
             className="block-image"
             style={{
@@ -79,20 +87,42 @@ class Cover extends React.Component {
               backgroundImage: `url(${Glass})`,
             }}
           ></div>
-          <div className="card"></div>
+          <div className="card">
+            <div className="card-heading">Standout to the right audience</div>
+            <div className="card-content">
+              Lorem ipsum dolor sit amet. Aut natus repudiandae ut ipsa nihil
+              quo dignissimos quod rem repellat quia. Id autem beatae aut
+              obcaecati mollitia nam dicta quos
+            </div>
+            <div className="learn-more">Learn more</div>
+          </div>
 
           <div
             className="block-image"
             style={{
               backgroundImage: `url(${Cherry})`,
             }}
-          ></div>
+          >
+            <div className="graphic-design-heading">Graphic Design</div>
+            <div className="graphic-design-content">
+              t is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using Lorem Ipsum is that it has
+            </div>
+          </div>
           <div
             className="block-image"
             style={{
               backgroundImage: `url(${Photography})`,
             }}
-          ></div>
+          >
+            <div className="photography-heading">Photography </div>
+            <div className="photography-content">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using Lorem Ipsum is that it has
+            </div>
+          </div>
         </div>
         <div className="testimony-block">
           <div className="testimonial-heading">CLIENT TESTIMONIALS</div>
